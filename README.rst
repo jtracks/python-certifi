@@ -15,7 +15,7 @@ Installation
 
 ``certifi`` is available on PyPI. Simply install it with ``pip``::
 
-    $ pip install certifi
+    $ pip install git+https://github.com/jtracks/python-certifi.git
 
 Usage
 -----
