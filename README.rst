@@ -5,6 +5,11 @@ Certifi: Python SSL Certificates
 validating the trustworthiness of SSL certificates while verifying the identity
 of TLS hosts. It has been extracted from the `Requests`_ project.
 
+Fork
+------
+This is a temporary workaround for versions of openssl < 1.1.1
+by dropping expired letsencrypt certificate until mozilla updates their certificate budle.
+
 Installation
 ------------
 
